@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+footer, header, hgroup, menu, nav, output, ruby, video,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -2109,7 +2109,7 @@ div .subhead p {
 		position: relative;
 	}
 
-		.image img {
+		.image video {
 			border-radius: 3px;
 			display: block;
 		}
@@ -2130,7 +2130,7 @@ div .subhead p {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left video, .image.right video {
 				width: 100%;
 			}
 
@@ -2140,7 +2140,7 @@ div .subhead p {
 			width: 100%;
 		}
 
-			.image.fit img {
+			.image.fit video {
 				width: 100%;
 			}
 
@@ -2576,6 +2576,14 @@ div .subhead p {
 		margin-bottom: 2rem;
 	}
 
+	#nasa-animation {
+		background: url('images/nasa-api-screen-capture.mp4') no-repeat top left transparent;
+    	
+    	position: relative;
+	}
+
+	
+
 /* Features */
 
 	.features {
@@ -2722,7 +2730,7 @@ div .subhead p {
 			width: 40%;
 		}
 
-			.spotlight .image img {
+			.spotlight .image video {
 				border-radius: 0;
 				width: 100%;
 			}
